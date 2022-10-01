@@ -25,11 +25,10 @@ print(f'P6 : la altura es {alt} metros y el peso es de {peso} KG')
 print('P7 : La altura es %(alt)s metros y el peso es de %(peso)s KG'% {"alt":alt,"peso":peso})
 
 #Creamos una variable que compile toda la frase y luego hace uso del comando de format
-text = "P8 : La altura es {} metros y el peso es de {} KG"
+text = "P8 : La altura es {:.02f} metros y el peso es de {:.03f} KG"
 print(text.format(alt, peso))
 
 #Mismo procedimiento que la "P7" pero fragmentamos la frase
-part1 = "La altura es {} metros"
-part2 = "El peso es de {} KG"
+part1 = "La altura es {:.02f} metros"
+part2 = "El peso es de {:.03f} KG"
 print("P9 : " + part1.format(alt) + " y " + part2.format(peso))
-py
