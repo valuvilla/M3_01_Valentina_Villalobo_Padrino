@@ -1,7 +1,7 @@
 #pedimos al usuario una valor para el peso y otro para la altura
 #Los almacenamos en dos variables
-alt=float(input("introduce altura"))
-peso=float(input("introduce peso"))
+alt=float(input("introduce altura: "))
+peso=float(input("introduce peso: "))
 #Maneras de escribir el resultado
 #Utilizamos el comando format de la maner más basica
 print("P1 : La altura es {} metros y el peso es de {} KG".format(alt, peso))
