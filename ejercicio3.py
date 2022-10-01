@@ -32,3 +32,6 @@ print(text.format(alt, peso))
 part1 = "La altura es {:.02f} metros"
 part2 = "El peso es de {:.03f} KG"
 print("P9 : " + part1.format(alt) + " y " + part2.format(peso))
+
+#Mezclando técnicas anteriores
+print("P10 : La altura es {0} metros y el peso es de {peso} KG".format(alt, peso=peso))
